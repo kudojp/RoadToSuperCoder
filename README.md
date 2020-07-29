@@ -4,7 +4,6 @@
 
 | 問題 | 解いた日 | 解いた場所 | 学んだこと |
 |----|----|----|----|
-
 |ABC088-D Grid Repainting | | | |
 |ABC085-D Katana Thrower | | | |
 |ABC078-D ABS | | | |
