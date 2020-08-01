@@ -16,7 +16,7 @@
 |ABC075-C Bridge | | | |
 |ABC070-C Multiple Clocks | | | |
 |ABC054-C One-Stroke Path | | | |
-|ABC040-C 柱柱柱柱柱 | | | |
-|[ABC006-C スフィンクスのなぞなぞ](https://beta.atcoder.jp/contests/abc006/tasks/abc006_3) | 200730 | [jupyter/200729.ipynb](https://github.com/kudojp/road-to-super-coder/blob/master/jupyters/200729.ipynb) | O(n^2)の全探索を工夫次第でO(n)にもO(1)にもできた。 |
+|[ABC040-C 柱柱柱柱柱](https://atcoder.jp/contests/abc040/tasks/abc040_c) | 200731 | [jupyter/200730.ipynb](https://github.com/kudojp/road-to-super-coder/blob/master/jupyters/200729.ipynb) | 深さ優先探索(再帰)→メモ化と工夫→DPで行けた|
+|[ABC006-C スフィンクスのなぞなぞ](https://beta.atcoder.jp/contests/abc006/tasks/abc006_3) | 200730 | [jupyter/2007230.ipynb](https://github.com/kudojp/road-to-super-coder/blob/master/jupyters/200729.ipynb) | O(n^2)の全探索を工夫次第でO(n)にもO(1)にもできた。 |
 
 https://shibh308.hatenablog.com/entry/2018/03/18/074745
