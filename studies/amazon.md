@@ -12,15 +12,28 @@ Amazon22 新卒技術試験
 ## Data Structures
 
 - 内部を知り、用途を比較できる
-- runtime とメモリの仕様を知っていること
+- runtime とメモリの使い方を知っていること
 
 ## Algorithms
 
 - アルゴリズムの rote memorization はいらない。が、知ってたら問題がときやすくなるかも
 - traversals, divide and conquer といった普遍的な流ゴリズムを見直せ
-  - a breadth-first search versus a depth-first search
   - how and when to use a breadth-first search versus a depth-first search, and what the tradeoffs are
 - Knowing the runtimes, theoretical limitations, and basic implementation strategies of different classes of algorithms is more important than memorizing the specific details of any given algorithm.(根本を知れ)
+
+<details>
+<summary>DFS vs BFS</summary>
+
+DFS in betting, BFS is steady.
+
+|DFS|BFS|
+|----|----|
+|Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'[1]), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
+
+It uses the opposite strategy as depth-first search, which instead explores the node branch as far as possible before being forced to backtrack and expand other nodes.[2]||
+
+
+</details>
 
 ## Coding
 
