@@ -5,7 +5,7 @@
 
 ## Repo structure
 
-- Data structure and algorithm memos
+- Data structure and algorithms memo
 - Code I submitted in programming competitions
 - Preparation for tech interviews
 
