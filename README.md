@@ -11,9 +11,10 @@
 
 ## Data structures and algorithms
 
+- Stack
+- Union Find
 - Sort (Quick/Merge)
 - DP (Dynamic Programming)
-- BFS (Broads First Search) with [stack|recursion]
+- BFS (Broadth First Search) with [stack|recursion]
 - DFS (Depth First Search) with recursion+memoization
 - Divide and Conquer
-- Union Find
