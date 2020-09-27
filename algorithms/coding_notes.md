@@ -17,10 +17,14 @@
 
 ```
 class Node:
-    class_var = 0                  # クラス定義直下で定義されるのはクラス変数(selfは付けない、インスタンス変数ではない!!!)
+    serial_number = 0                  # クラス定義直下で定義されるのはクラス変数(selfは付けない、インスタンス変数ではない!!!)
+    
+    @classmethod                       # クラスメソッド
+    def get_current_number(cls):
+        return cls.serial_number       # クラス変数の参照はcls.~またはself.~から。代入時はself.~ではなくcls.~で行う(self.~だとインスタンス変数が定義されてしまう)
 
     def __init__(self, value, next):
-        self.value = value            # コンストラクタ/メソッドの内部からインスタンス変数する時にはselfが必要
+        self.value = value            # コンストラクタ/メソッドの内部からインスタンス変数を参照/定義する時にはselfが必要(Rubyは参照時は同名のローカル変数が存在しない限り省略可能だった)
         self.next = next
 ```
 
