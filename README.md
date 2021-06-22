@@ -15,8 +15,8 @@
 - Union Find
 - Sort (Quick/Merge)
 - DP (Dynamic Programming)
-- BFS (Broadth First Search) with [stack|recursion]
-- DFS (Depth First Search) with recursion+memoization
+- BFS (Broadth First Search) with queue
+- DFS (Depth First Search) with recursion or with stack
 - Divide and Conquer
 
 
