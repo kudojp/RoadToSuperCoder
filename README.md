@@ -1,5 +1,7 @@
 # Road to SUPER CODER
 
+**Only used as algorithm notes currently.**
+
 - This repository is footprints on the road to be a super coder.
 - Included contents are:
 
