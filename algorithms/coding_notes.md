@@ -1,3 +1,28 @@
+# Hack
+
+LinkedListの値をずらっとprintする方法。
+以下のように Node#__str__ を実装すれば良い。
+
+
+```py
+class Node:
+    def __init__(self, val, next=None):
+        self.val = val
+        self.next = next
+    def __str__(self):
+        string = str(self.val)
+        if self.next is not None:
+            string += "->" + self.next.__str__()
+        return string
+  
+> 使い方
+> print(head_node)
+> None->4->3->None
+```
+
+
+
+
 # Coding Cheat Sheet
 
 - これはコーディングのチートシートである。
